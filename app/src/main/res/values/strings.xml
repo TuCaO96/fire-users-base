@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FireUsersBase</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_logout">Sair</string>
+    <string name="action_sign_up">Registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="continuar">Continuar</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="success">Sucesso</string>
+    <string name="error">Erro</string>
+    <string name="error_invalid_email">Endereço de email inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="username">Usuário</string>
+    <string name="username_selected">Usuário selecionado</string>
+</resources>
