@@ -56,10 +56,11 @@ public class MainActivity extends AppCompatActivity {
     @OnItemClick(R.id.list)
     public void itemClick(int p){
         User itemSelected = (User) users_list.getItemAtPosition(p);
+        String content = "Usuário: " + itemSelected.getUserDetails().getUsername() +
+                "\nUID: " + itemSelected.getUid();
         new MaterialDialog.Builder(MainActivity.this)
                 .title(R.string.username)
-                .content("Usuário: " + itemSelected.getUserDetails().getUsername() +
-                        "\nUID: " + itemSelected.getUid())
+                .content(content)
                 .positiveText(R.string.ok)
                 .show();
     }
